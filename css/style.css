@@ -146,3 +146,21 @@ img {
 /*------------
     MOBILE
 ------------*/
+@media screen and (max-width: 480px) {
+    .row{
+     flex-direction: column;
+    }
+    .lessons .col, .steps .col, .why-us .col-right, .why-us .col-left{
+     width: 100%;
+    }
+    .steps{
+        margin-bottom: 0;
+    }
+    .why-us{
+        background-color: black;
+        padding-top: 3rem;
+    }
+    .col, .col-left{
+        padding-bottom: 3rem;
+    }
+ }
